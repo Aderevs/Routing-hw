@@ -28,7 +28,7 @@ namespace Task2
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller}/{action}/{x}/{y}");
+                pattern: "{controller}/{action}/{x:double}/{y:double}");
 
             app.Run();
         }
